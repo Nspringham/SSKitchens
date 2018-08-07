@@ -107,7 +107,7 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  box-shadow: 5px 5px 5px rgb(170, 170, 170);
+  /* box-shadow: 5px 5px 5px rgb(170, 170, 170); */
 }
 .pre-header{
   font-family: Lato-Light;
@@ -139,6 +139,43 @@ body {
 .banner-button:hover{
   background-color: #8F8A8A;
   color: #636363;
+}
+
+.desc-container {
+  width: 100%;
+  height: 900px;
+  background-image: url(img/stock_photos/dark_breakfastbar.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desc-textbox {
+  display: flex;
+  background-color: #646262;
+  opacity: 0.8;
+  width: 30%;
+  height: 250px;
+  padding: 50px;
+  text-align: center;
+  font-family: Lato;
+  color: #E1E1E1;
+  line-height: 30px;
+  letter-spacing: .06rem;
+}
+.desc-textbox h2 {
+  font-size: 18px;
+  width: 50%;
+  padding: 20px;
+  border-right: 1px solid #E1E1E1;
+}
+.desc-textbox p {
+  font-family: Lato-Light;
+  font-size: 12px;
+  width: 50%;
+  padding: 20px;
 }
 
 /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
