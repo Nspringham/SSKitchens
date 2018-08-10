@@ -199,7 +199,7 @@ a {
 
 .slideshow-container {
   position: relative;
-  min-height: 350px;
+  min-height: 375px;
   height: auto;
   background: #EEEEEE;
   display: flex;
