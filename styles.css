@@ -280,7 +280,7 @@ a {
 }
 .grid-item {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
 }
 .grid-image {
   /* width: 50%; */
@@ -293,7 +293,7 @@ a {
   /* width: 50%; */
   height: 315px;
   /* position: relative; */
-  background-color: greenyellow;
+  background-color: lightcoral;
   border: solid red 1px;
 }
 .grid-pre-header {
