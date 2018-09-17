@@ -3,8 +3,14 @@
   flex-direction: column;
   height: 500px;
   background: #EEEEEE;
-  /* position: relative; */
   align-items: center;
   text-align: center;
-  /* justify-content: center; */
+
 }
+.page-header {
+  background: #D2D2D2;
+  height: 200px;
+  width: 100%;
+  position: bottom;
+}
+/* background: #D2D2D2; */
