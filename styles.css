@@ -204,9 +204,9 @@ a:visited {
 /* QUOTES SLIDESHOW */
 .slideshow-container {
   position: relative;
-  min-height: 375px;
+  min-height: 360px;
   height: auto;
-  background: #EEEEEE;
+  background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -264,7 +264,8 @@ a:visited {
   bottom: 0;
   text-align: center;
   padding: 20px;
-  background: #EEE;
+  margin-bottom: 15px;
+  background: rgb(255, 255, 255);
 }
 .dot {
   cursor: pointer;
